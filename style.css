@@ -1,0 +1,254 @@
+.body {
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*CABECERA*/
+
+.cabecera {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 10rem;
+    align-items: center;
+    color: white;
+}
+
+.logoytitulo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__cabecera {
+    width: 55px;
+}
+
+.titulo__cabecera {
+    font-size: 32px;
+    font-family: 'Patua One', cursive;
+    text-decoration: none;
+    margin-left: 0.3rem;
+    color: white;
+}
+
+.ul__cabecera {
+    display: flex;
+    text-decoration: none;
+    gap: 1.5rem;
+    list-style: none;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lista__cabecera {
+    text-decoration: none;
+    color: white;
+}
+
+.lista__cabecera:hover {
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+/*LEMA*/
+
+.lema {
+    text-align: center;
+    background-color: #E6C3C3;
+}
+
+.lema__titulo {
+    padding: 0.2rem 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*CONTENEDOR*/
+
+.contenedor {
+    
+}
+
+/*UBICACION*/
+
+.ubicacion {
+    
+    padding: 0 0 3rem 0;
+}
+
+.ubicacion__mapas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding: 0 4rem;
+
+}
+
+.tituloubicacion__div {
+    
+    padding: 1.5rem 0
+}
+
+.ubicacion__titulo {
+    font-family: 'Patua One', cursive;
+    font-size: 32px;
+    color: #222222;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.descripcion__mapas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.parrafo__mapas{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color: #222222;
+    font-weight: bold;
+}
+
+.mapa {
+    border-radius: 1rem;
+}
+
+
+/*PRODUCTOS*/
+
+.productos {
+    padding: 2rem 8rem 5rem 8rem;
+
+}
+
+.tituloproductos__div {
+    padding: 1.5rem 0;
+}
+
+.titulo__productos {
+    font-family: 'Patua One', cursive;
+    font-size: 32px;
+    color: #222222;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.productos__imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.imagenes__cortes {
+    width: 250px; 
+    padding: 1%;
+    border-radius: 0.5rem;
+}
+
+.imagenes__cortes:hover {
+    cursor: pointer;
+}
+
+.productos__div {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__corte {
+    font-family: 'Patua One', cursive;
+    font-size: 22px;
+    text-decoration: none;
+    color: #222222;
+    margin-left: 0.25rem;
+
+}
+
+.corteyprecio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio__corte {
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1C4674;
+    
+}
+
+/*FOOTER*/
+
+.piedepagina {
+    background-color: #222222;
+    text-align: center;
+}
+
+.piedepagina__copyright {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    padding: 0.3rem;
+}
+
+
+
+
+
+/*CORTES SEPARADOS*/
+
+.contenedor__bondiola {
+    padding: 4rem 15% 0 15%;
+    display: flex;
+
+}
+
+.bondiola__imagen {
+    width: 40%;
+    border-radius: 0.5rem;
+}
+
+.titulo__bondiola {
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    color: #222222;
+    text-align: start;
+}
+
+.informacion__bondiola {
+    margin: 0.5rem 0 0 4rem;
+    
+}
+
+.nutricional__bondiola {
+    color: #949494;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.precio__bondiola {
+    font-family: 'Patua One', cursive;
+    font-size: 28px;
+    color: #1C4674;
+    text-align: start;
+}
+
+.porkilo {
+    font-family: 'Patua One', cursive;
+    color: #1C4674;
+}
+
+.precioarreglo {
+    display: flex;
+    margin-top: 2.5rem;
+}
