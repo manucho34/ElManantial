@@ -252,3 +252,60 @@ html {
     display: flex;
     margin-top: 2.5rem;
 }
+
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 400px) {
+
+    .body {
+        width: 100vw;
+    }
+
+    .cabecera {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navegacion__cabecera {
+        flex-wrap: wrap;
+    }
+
+    .ul__cabecera {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .lema {
+        display: block;
+        width: 100%;
+        
+    }
+
+    .logoytitulo {
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .parrafo__mapas {
+        display: none;
+    }
+
+    .ubicacion__mapas {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mapa {
+        padding: 1rem 0;
+        border-radius: 0.5rem;
+    }
+}
