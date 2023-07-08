@@ -72,7 +72,7 @@ html {
 /*CONTENEDOR*/
 
 .contenedor {
-    
+    background-color: white;
 }
 
 /*UBICACION*/
@@ -118,6 +118,7 @@ html {
 }
 
 .mapa {
+    margin: 0 1.5rem;
     border-radius: 1rem;
 }
 
@@ -165,11 +166,14 @@ html {
 
 .titulo__corte {
     font-family: 'Patua One', cursive;
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: none;
     color: #222222;
     margin-left: 0.25rem;
+}
 
+.titulo__corte:hover {
+    text-decoration: underline;
 }
 
 .corteyprecio {
@@ -180,7 +184,7 @@ html {
 
 .precio__corte {
     font-family: 'Patua One', cursive;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: #1C4674;
     
@@ -234,6 +238,7 @@ html {
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 0.5rem;
 }
 
 .precio__bondiola {
@@ -259,7 +264,7 @@ html {
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
 
     .body {
         width: 100vw;
